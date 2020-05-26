@@ -173,8 +173,92 @@ img {
   font-size: 1.5em;
   font-weight: bold;
 }
-/**/
 
-.container {
-  border: 1px solid blue;
+/*--------------Estilos principales-----------------*/
+.group--color .container {
+  background: var(--color-naranja);
+  color: white;
+  padding: 10px;
+  text-align: center;
 }
+
+.main__title {
+  margin: 15px 0;
+  font-size: 1.8em;
+  font-family: "Pacifico", cursive;
+  font-weight: 100;
+}
+
+.column__title {
+  font-size: 1.3em;
+}
+
+.main__about__description .column:nth-child(2) {
+  padding: 10px;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+  background: var(--color-naranja);
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.group__title {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.8em;
+  margin: 30px;
+}
+
+.today-special .column {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.today-special__img {
+  margin: auto;
+  max-width: 350px;
+}
+
+.today-special__title {
+  font-size: 1.3em;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.today-special__price {
+  font-size: 1.5em;
+  color: var(--color-naranja);
+  font-weight: bold;
+}
+
+/*------------Estilos del footer-----------*/
+.main-footer {
+  background: #222;
+  color: white;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 0.8em;
+}
+.copy {
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.main-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-footer [class*="fa-"]:before {
+  margin-right: 5px;
+}
+/**/
