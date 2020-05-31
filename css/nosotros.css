@@ -49,11 +49,18 @@
 
 @media screen and (min-width: 1024px) {
   .our-team__img {
-    width: 310px;
-    height: 310px;
+    width: 210px;
+    height: 210px;
   }
 
   .our-team__title {
     font-size: 2.1em;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .our-team__img {
+    width: 310px;
+    height: 310px;
   }
 }
