@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/20a0fcaf79.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Galería | Restaurant</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/nosotros.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+  </head>
+  <body>
+    <!-- modal -->
+    <div class="modal" id="modal">
+      <div class="modal__content">
+        <img src="" alt="" class="modal__img" id="modal__img" />
+      </div>
+      <div class="modal__boton" id="modal__boton">X</div>
+    </div>
+    <!-- fin del modal -->
+
+    <header class="main-header">
+      <div class="container container--flex">
+        <div class="logo-container column column--50">
+          <h1 class="logo">Restaurant</h1>
+        </div>
+
+        <div class="main-header__contactInfo column column--50">
+          <p class="main-header__contactInfo__phone">
+            <span class="fas fa-phone"></span> 999-999-999
+          </p>
+          <p class="main-header__contactInfo__address">
+            <span class="fas fa-map-marker-alt"></span> Urb Las Malvinas 1234
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <nav class="main-nav">
+      <div class="container container--flex">
+        <span class="btn-menu fas fa-bars" id="btnmenu"></span>
+
+        <ul class="menu" id="menu">
+          <li class="menu__item">
+            <a href="/" class="menu__link">Inicio</a>
+          </li>
+          <li class="menu__item">
+            <a href="nosotros.html" class="menu__link">Nosotros</a>
+          </li>
+          <li class="menu__item">
+            <a href="galeria.html" class="menu__link menu__item--select"
+              >Galeria</a
+            >
+          </li>
+          <li class="menu__item">
+            <a href="contacto.html" class="menu__link">Contacto</a>
+          </li>
+        </ul>
+
+        <div class="social-icon">
+          <a href="" class="social-icon__link">
+            <span class="fab fa-facebook-f"></span
+          ></a>
+          <a href="" class="social-icon__link">
+            <span class="fab fa-twitter"></span
+          ></a>
+          <a href="" class="social-icon__link">
+            <span class="fas fa-envelope"></span
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="banner">
+      <img src="assets/img/banner-galery.jpg" alt="" class="banner__img" />
+      <div class="banner__content">Lo mejor de nosotros a tu servicio</div>
+    </section>
+
+    <main class="main">
+      <div class="group gallery">
+        <h2 class="group__title">Nuestra Galería</h2>
+        <div class="container container--flex">
+          <div class="column column--50-25">
+            <img
+              src="assets/img/gallery/1.jpg"
+              alt=""
+              class="gallery__img gallery__img--big"
+            />
+            <img
+              src="assets/img/gallery/2.jpg"
+              alt=""
+              class="gallery__img gallery__img--small"
+            />
+          </div>
+          <div class="column column--50-25">
+            <img
+              src="assets/img/gallery/3.jpg"
+              alt=""
+              class="gallery__img gallery__img--small"
+            />
+            <img
+              src="assets/img/gallery/4.jpg"
+              alt=""
+              class="gallery__img gallery__img--big"
+            />
+          </div>
+          <div class="column column--50-25">
+            <img
+              src="assets/img/gallery/5.jpg"
+              alt=""
+              class="gallery__img gallery__img--big"
+            />
+            <img
+              src="assets/img/gallery/6.jpg"
+              alt=""
+              class="gallery__img gallery__img--small"
+            />
+          </div>
+          <div class="column column--50-25">
+            <img
+              src="assets/img/gallery/7.jpg"
+              alt=""
+              class="gallery__img gallery__img--small"
+            />
+            <img
+              src="assets/img/gallery/8.jpg"
+              alt=""
+              class="gallery__img gallery__img--big"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container container--flex">
+        <div class="column column--33">
+          <h2 class="column__tile">¿Por qué visitarnos?</h2>
+          <div class="column__txt">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+            nulla neque veniam eligendi soluta suscipit, aliquid doloremque
+          </div>
+        </div>
+
+        <div class="column column--33">
+          <h2 class="column__tile">Contáctanos</h2>
+          <div class="column__txt">Urb Las Malvinas 1234</div>
+          <div class="column__txt">Telf:999-999-999</div>
+          <div class="column__txt">Consultas@restaurant.com</div>
+        </div>
+
+        <div class="column column--33">
+          <h2 class="column__tile">Síguenos en nuestras redes:</h2>
+          <div class="column__txt">
+            <a href=""> <span class="fab fa-facebook-f"></span> Facebook</a>
+          </div>
+          <div class="column__txt">
+            <a href=""><span class="fab fa-twitter"></span> Twitter</a>
+          </div>
+          <div class="column__txt">
+            <a href=""><span class="fab fa-youtube"></span> Youtube</a>
+          </div>
+        </div>
+        <div class="copy">
+          © 2020 LexStudio | Todos los derechos reservados
+        </div>
+      </div>
+    </footer>
+    <script src="js/modal.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+</html>
