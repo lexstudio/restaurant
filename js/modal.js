@@ -10,7 +10,6 @@ for (let i = 0; i < imagenes.length; i++) {
     img.setAttribute(`src`, src)
   })
 }
-
 boton.addEventListener(`click`, function () {
   modal.classList.toggle(`modal--open`)
 })
